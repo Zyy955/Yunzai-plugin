@@ -1,17 +1,25 @@
+/*
+狗头保命！倒卖没妈
+github：https://github.com/ZYY-Yu/Yunzai-plugin
+qaq，我啥也不知道，别来问我
+支持go-cqhttp协议的频道
+*/
+
+
 import plugin from "../../lib/plugins/plugin.js"
-// import { segment } from 'icqq'   // TRSS-Yunzai使用需要注释此行
+import { segment } from 'icqq'   // TRSS-Yunzai使用需要注释此行
 
 const group = [
-  "86109451662629932-13023414",
-  "682801951"
+  "123456",
+  "12345678"
 ]
 
 const name = {
-  "86109451662629932-13023414": {
+  "123456": {
     name: "闲聊大厅",
     scene: "频道"
   },
-  "423486321": {
+  "12345678": {
     name: "本地测试",
     scene: "群"
   }
